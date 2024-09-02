@@ -28,6 +28,10 @@ bash <(wget -qO- -o- https://github.com/DuskPagoda/v2raya/raw/main/install.sh)
 ```bash
 systemctl start v2raya
 ```
+#停止
+```bash
+systemctl stop v2raya
+```
 
 ## 访问
 
