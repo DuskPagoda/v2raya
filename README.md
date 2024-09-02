@@ -9,3 +9,29 @@ v2rayA 致力于提供最简单的操作，满足绝大部分需求。
 得益于 Web 客户端的优势，你不仅可以将其用于本地计算机，还可以轻松地将它部署在路由器或 NAS 上。
 
 项目地址：https://github.com/DuskPagoda/v2raya
+
+## 安装
+
+
+
+系统支持：Ubuntu，Debian，CentOS，推荐使用 Ubuntu 22
+
+执行如下命令：
+
+```bash
+bash <(wget -qO- -o- https://github.com/DuskPagoda/v2raya/raw/main/install.sh)
+```
+
+## 启动
+
+#启动
+```bash
+systemctl start v2raya
+```
+
+## 访问
+
+#启动
+```bash
+http://你的服务器ip:2017
+```
